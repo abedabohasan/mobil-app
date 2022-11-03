@@ -132,8 +132,8 @@ section.watch button.carousel-control-prev {
   border-radius: 50%;
   color: #cb2d3e;
   border: 2px solid #ef493c;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto 0;
+  padding: 0 10px;
 }
 section.watch button.carousel-control-next:hover,
 section.watch button.carousel-control-prev:hover {
@@ -168,7 +168,7 @@ section.QandA {
   background-image: url(../imgs/bg-2.jpg);
   background-position: cover;
   background-size: cover;
-  height: fit-content;
+  height: 60vh;
 }
 section.QandA > h2 {
   margin-bottom: 70px;
@@ -304,8 +304,14 @@ footer .copyRights p {
     text-align: center;
     padding-bottom: 15px;
   }
-  section.watch .caroursel-inner {
+  section.watch .carousel-inner {
     padding: 0 20px;
+  }
+  section.QandA {
+    height: 80vh;
+  }
+  section.QandA .accordion {
+    height: 50%;
   }
 }
 @media (max-width: 768px) {
