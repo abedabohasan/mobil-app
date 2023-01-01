@@ -168,7 +168,7 @@ section.QandA {
   background-image: url(../imgs/bg-2.jpg);
   background-position: cover;
   background-size: cover;
-  height: 60vh;
+  height: 450px;
 }
 section.QandA > h2 {
   margin-bottom: 70px;
@@ -308,10 +308,10 @@ footer .copyRights p {
     padding: 0 20px;
   }
   section.QandA {
-    height: 80vh;
+    height: 750px;
   }
   section.QandA .accordion {
-    height: 50%;
+    height: 230px;
   }
 }
 @media (max-width: 768px) {
