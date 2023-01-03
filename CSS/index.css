@@ -110,6 +110,10 @@ section.extras .extra h1 {
 section.extras .extra p {
   color: #757474;
 }
+
+section.extras .mobile-3 {
+  max-width: 100%;
+}
 /* ..............extras end  */
 /* ..............watch start  */
 section.watch {
@@ -349,5 +353,16 @@ footer .copyRights p {
     height: 40px;
     width: 40px;
     font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer p {
+    max-width: 90%;
+    margin-right: 5%;
+  }
+  footer .hrorzantal::before {
+    display: none;
   }
 }
